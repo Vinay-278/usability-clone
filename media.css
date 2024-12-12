@@ -1,0 +1,16 @@
+/* this is the media style  */
+.container{
+    overflow: hidden;
+}
+.nav-toggle{
+    display: none;
+}
+
+@media screen and (max-width:991px){
+    .nav-toggle{
+    display: block;
+}
+.nav-link{
+    display: none;
+}
+}
